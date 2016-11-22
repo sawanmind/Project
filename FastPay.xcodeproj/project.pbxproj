@@ -8,22 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		52636E8E1DDE23F300C399E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636E8D1DDE23F300C399E7 /* AppDelegate.swift */; };
-		52636E901DDE23F300C399E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636E8F1DDE23F300C399E7 /* ViewController.swift */; };
 		52636E931DDE23F300C399E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52636E911DDE23F300C399E7 /* Main.storyboard */; };
 		52636E961DDE23F400C399E7 /* FastPay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52636E941DDE23F400C399E7 /* FastPay.xcdatamodeld */; };
 		52636E981DDE23F400C399E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52636E971DDE23F400C399E7 /* Assets.xcassets */; };
 		52636E9B1DDE23F400C399E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52636E991DDE23F400C399E7 /* LaunchScreen.storyboard */; };
+		52636EA51DDE24CC00C399E7 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EA31DDE24CC00C399E7 /* SSRadioButton.swift */; };
+		52636EA61DDE24CC00C399E7 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EA41DDE24CC00C399E7 /* SSRadioButtonsController.swift */; };
+		52636EBA1DDE24F300C399E7 /* CardEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EA71DDE24F300C399E7 /* CardEntryViewController.swift */; };
+		52636EBB1DDE24F300C399E7 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EA81DDE24F300C399E7 /* DashboardController.swift */; };
+		52636EBC1DDE24F300C399E7 /* DatacardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EA91DDE24F300C399E7 /* DatacardViewController.swift */; };
+		52636EBD1DDE24F300C399E7 /* DTHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EAA1DDE24F300C399E7 /* DTHViewController.swift */; };
+		52636EBE1DDE24F300C399E7 /* ElectricityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EAB1DDE24F300C399E7 /* ElectricityViewController.swift */; };
+		52636EBF1DDE24F300C399E7 /* FAQ'sViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EAC1DDE24F300C399E7 /* FAQ'sViewController.swift */; };
+		52636EC01DDE24F300C399E7 /* GasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EAD1DDE24F300C399E7 /* GasViewController.swift */; };
+		52636EC11DDE24F300C399E7 /* HelpDeskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EAE1DDE24F300C399E7 /* HelpDeskViewController.swift */; };
+		52636EC21DDE24F300C399E7 /* IPTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EAF1DDE24F300C399E7 /* IPTVViewController.swift */; };
+		52636EC31DDE24F300C399E7 /* LandlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB01DDE24F300C399E7 /* LandlineViewController.swift */; };
+		52636EC41DDE24F300C399E7 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB11DDE24F300C399E7 /* LoginPageViewController.swift */; };
+		52636EC51DDE24F300C399E7 /* MobileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB21DDE24F300C399E7 /* MobileViewController.swift */; };
+		52636EC61DDE24F300C399E7 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB31DDE24F300C399E7 /* NotificationViewController.swift */; };
+		52636EC71DDE24F300C399E7 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB41DDE24F300C399E7 /* OffersViewController.swift */; };
+		52636EC81DDE24F300C399E7 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB51DDE24F300C399E7 /* PaymentViewController.swift */; };
+		52636EC91DDE24F300C399E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB61DDE24F300C399E7 /* ProfileViewController.swift */; };
+		52636ECA1DDE24F300C399E7 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB71DDE24F300C399E7 /* RegisterPageViewController.swift */; };
+		52636ECB1DDE24F300C399E7 /* VOIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB81DDE24F300C399E7 /* VOIPViewController.swift */; };
+		52636ECC1DDE24F300C399E7 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52636EB91DDE24F300C399E7 /* WaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52636E8A1DDE23F300C399E7 /* FastPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52636E8D1DDE23F300C399E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52636E8F1DDE23F300C399E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52636E921DDE23F300C399E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52636E951DDE23F400C399E7 /* FastPay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastPay.xcdatamodel; sourceTree = "<group>"; };
 		52636E971DDE23F400C399E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52636E9A1DDE23F400C399E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52636E9C1DDE23F400C399E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52636EA31DDE24CC00C399E7 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		52636EA41DDE24CC00C399E7 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		52636EA71DDE24F300C399E7 /* CardEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEntryViewController.swift; sourceTree = "<group>"; };
+		52636EA81DDE24F300C399E7 /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		52636EA91DDE24F300C399E7 /* DatacardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatacardViewController.swift; sourceTree = "<group>"; };
+		52636EAA1DDE24F300C399E7 /* DTHViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTHViewController.swift; sourceTree = "<group>"; };
+		52636EAB1DDE24F300C399E7 /* ElectricityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricityViewController.swift; sourceTree = "<group>"; };
+		52636EAC1DDE24F300C399E7 /* FAQ'sViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FAQ'sViewController.swift"; sourceTree = "<group>"; };
+		52636EAD1DDE24F300C399E7 /* GasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasViewController.swift; sourceTree = "<group>"; };
+		52636EAE1DDE24F300C399E7 /* HelpDeskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpDeskViewController.swift; sourceTree = "<group>"; };
+		52636EAF1DDE24F300C399E7 /* IPTVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPTVViewController.swift; sourceTree = "<group>"; };
+		52636EB01DDE24F300C399E7 /* LandlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandlineViewController.swift; sourceTree = "<group>"; };
+		52636EB11DDE24F300C399E7 /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		52636EB21DDE24F300C399E7 /* MobileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileViewController.swift; sourceTree = "<group>"; };
+		52636EB31DDE24F300C399E7 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		52636EB41DDE24F300C399E7 /* OffersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		52636EB51DDE24F300C399E7 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		52636EB61DDE24F300C399E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		52636EB71DDE24F300C399E7 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		52636EB81DDE24F300C399E7 /* VOIPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VOIPViewController.swift; sourceTree = "<group>"; };
+		52636EB91DDE24F300C399E7 /* WaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +96,83 @@
 		52636E8C1DDE23F300C399E7 /* FastPay */ = {
 			isa = PBXGroup;
 			children = (
+				52636EA21DDE24CC00C399E7 /* SSRadioButtonController */,
+				52D8D8501DE01DD900514684 /* SupportingFiles */,
+				52D8D84F1DE01DBA00514684 /* Payment/CardController */,
+				52D8D84C1DE01D5500514684 /* DashBoardController */,
+				52D8D84D1DE01D7F00514684 /* TabBarController */,
+				52636EAF1DDE24F300C399E7 /* IPTVViewController.swift */,
+				52D8D84E1DE01D8D00514684 /* Login/SignipController */,
+			);
+			path = FastPay;
+			sourceTree = "<group>";
+		};
+		52636EA21DDE24CC00C399E7 /* SSRadioButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				52636EA31DDE24CC00C399E7 /* SSRadioButton.swift */,
+				52636EA41DDE24CC00C399E7 /* SSRadioButtonsController.swift */,
+			);
+			path = SSRadioButtonController;
+			sourceTree = "<group>";
+		};
+		52D8D84C1DE01D5500514684 /* DashBoardController */ = {
+			isa = PBXGroup;
+			children = (
+				52636EA81DDE24F300C399E7 /* DashboardController.swift */,
+				52636EA91DDE24F300C399E7 /* DatacardViewController.swift */,
+				52636EAA1DDE24F300C399E7 /* DTHViewController.swift */,
+				52636EAB1DDE24F300C399E7 /* ElectricityViewController.swift */,
+				52636EAD1DDE24F300C399E7 /* GasViewController.swift */,
+				52636EB01DDE24F300C399E7 /* LandlineViewController.swift */,
+				52636EB21DDE24F300C399E7 /* MobileViewController.swift */,
+				52636EB81DDE24F300C399E7 /* VOIPViewController.swift */,
+				52636EB91DDE24F300C399E7 /* WaterViewController.swift */,
+			);
+			name = DashBoardController;
+			sourceTree = "<group>";
+		};
+		52D8D84D1DE01D7F00514684 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				52636EAC1DDE24F300C399E7 /* FAQ'sViewController.swift */,
+				52636EAE1DDE24F300C399E7 /* HelpDeskViewController.swift */,
+				52636EB31DDE24F300C399E7 /* NotificationViewController.swift */,
+				52636EB41DDE24F300C399E7 /* OffersViewController.swift */,
+				52636EB61DDE24F300C399E7 /* ProfileViewController.swift */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		52D8D84E1DE01D8D00514684 /* Login/SignipController */ = {
+			isa = PBXGroup;
+			children = (
+				52636EB11DDE24F300C399E7 /* LoginPageViewController.swift */,
+				52636EB71DDE24F300C399E7 /* RegisterPageViewController.swift */,
+			);
+			name = Login/SignipController;
+			sourceTree = "<group>";
+		};
+		52D8D84F1DE01DBA00514684 /* Payment/CardController */ = {
+			isa = PBXGroup;
+			children = (
+				52636EA71DDE24F300C399E7 /* CardEntryViewController.swift */,
+				52636EB51DDE24F300C399E7 /* PaymentViewController.swift */,
+			);
+			name = Payment/CardController;
+			sourceTree = "<group>";
+		};
+		52D8D8501DE01DD900514684 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				52636E8D1DDE23F300C399E7 /* AppDelegate.swift */,
-				52636E8F1DDE23F300C399E7 /* ViewController.swift */,
 				52636E911DDE23F300C399E7 /* Main.storyboard */,
 				52636E971DDE23F400C399E7 /* Assets.xcassets */,
 				52636E991DDE23F400C399E7 /* LaunchScreen.storyboard */,
 				52636E9C1DDE23F400C399E7 /* Info.plist */,
 				52636E941DDE23F400C399E7 /* FastPay.xcdatamodeld */,
 			);
-			path = FastPay;
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +248,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52636E901DDE23F300C399E7 /* ViewController.swift in Sources */,
+				52636EC01DDE24F300C399E7 /* GasViewController.swift in Sources */,
+				52636EBE1DDE24F300C399E7 /* ElectricityViewController.swift in Sources */,
+				52636EA61DDE24CC00C399E7 /* SSRadioButtonsController.swift in Sources */,
+				52636EBC1DDE24F300C399E7 /* DatacardViewController.swift in Sources */,
+				52636EC11DDE24F300C399E7 /* HelpDeskViewController.swift in Sources */,
 				52636E8E1DDE23F300C399E7 /* AppDelegate.swift in Sources */,
+				52636EBA1DDE24F300C399E7 /* CardEntryViewController.swift in Sources */,
 				52636E961DDE23F400C399E7 /* FastPay.xcdatamodeld in Sources */,
+				52636EC71DDE24F300C399E7 /* OffersViewController.swift in Sources */,
+				52636EBB1DDE24F300C399E7 /* DashboardController.swift in Sources */,
+				52636EBD1DDE24F300C399E7 /* DTHViewController.swift in Sources */,
+				52636EC21DDE24F300C399E7 /* IPTVViewController.swift in Sources */,
+				52636EC31DDE24F300C399E7 /* LandlineViewController.swift in Sources */,
+				52636ECC1DDE24F300C399E7 /* WaterViewController.swift in Sources */,
+				52636EC41DDE24F300C399E7 /* LoginPageViewController.swift in Sources */,
+				52636EC61DDE24F300C399E7 /* NotificationViewController.swift in Sources */,
+				52636ECA1DDE24F300C399E7 /* RegisterPageViewController.swift in Sources */,
+				52636EC81DDE24F300C399E7 /* PaymentViewController.swift in Sources */,
+				52636EA51DDE24CC00C399E7 /* SSRadioButton.swift in Sources */,
+				52636EC91DDE24F300C399E7 /* ProfileViewController.swift in Sources */,
+				52636ECB1DDE24F300C399E7 /* VOIPViewController.swift in Sources */,
+				52636EC51DDE24F300C399E7 /* MobileViewController.swift in Sources */,
+				52636EBF1DDE24F300C399E7 /* FAQ'sViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +434,7 @@
 				52636EA11DDE23F400C399E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
